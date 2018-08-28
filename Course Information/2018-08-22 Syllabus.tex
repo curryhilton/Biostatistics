@@ -9,8 +9,10 @@
 \definecolor{darkred}{rgb}{.7,0,0}
 \definecolor{darkgreen}{rgb}{0,.6,0}
 \definecolor{red}{rgb}{.98,0,0}
-\usepackage[colorlinks,pagebackref,pdfusetitle,urlcolor=darkblue,citecolor=darkblue,linkcolor=darkred,bookmarksnumbered,plainpages=false]{hyperref}
+\usepackage[colorlinks,pagebackref,pdfusetitle,urlcolor=darkblue,citecolor=darkblue,linkcolor=darkblue,bookmarksnumbered,plainpages=false]{hyperref}
 \renewcommand{\thefootnote}{\fnsymbol{footnote}}
+\usepackage{flafter} 
+\usepackage{booktabs}
 
 \pagestyle{fancyplain}
 \fancyhf{}
@@ -74,7 +76,7 @@ Fall 2018
 
 \noindent\textbf{Course Goals and Objectives:}  
 
-\vspace{5mm}
+\vspace{2mm}
 
 \noindent{This course introduces students to the discipline of statistics as a science of understanding
 and analyzing data. Throughout the semester, students will learn how to effectively make use
@@ -98,95 +100,148 @@ exploratory analysis to inference to modeling.
 
 \end{enumerate}
 
+\noindent\textbf{Course Information:}
 
-
-\begin{center}
-\rule{6in}{0.4pt}
-\begin{minipage}[t]{.75\textwidth}
-\begin{tabular}{llcccll}
-\textbf{Instructor:} & Curry W. Hilton & & &  & \textbf{Phone:} & 984.999.5481 \\
-\textbf{Email:} &  \href{mailto:curry.hilton@duke.edu}{curry.hilton@duke.edu} & & & & \textbf{Office:} & 122 A Old Chem.
-%TTH 3:05 P - 4:20 P (001), M 3:05 P - 4:20 P (01L), M 4:40 P - 5:55 P (02L)
+\begin{table}[h]
+\centering
+\begin{tabular}{l|l|l|l}
+\toprule
+                                & \textbf{Days}      & \textbf{Times} & \textbf{Location} \\ \midrule
+Lecture                & TTH                   & 3:05 PM - 4:20 PM                   & Sociology - Psychology 126             \\ 
+Lab 01                 & M                     & 3:05 PM - 4:20 PM                   & Social Sciences 119                    \\ 
+Lab 02                 & M                     & 4:40 PM - 5:55 PM                   & Sociology - Psychology 129             \\ 
+Office Hours (Curry)   & T                     & 4:30 PM - 6:30 PM                   & Old Chemistry 122 A                    \\ 
+Office Hours (Patrick) & M &      12:00 Noon - 2:00 PM                               &     Old Chemistry 203 B                                  \\ 
+Office Hours (TBD)  &  &                                     &                                        \\ \bottomrule
 \end{tabular}
-\end{minipage}
-\rule{6in}{0.4pt}
-\end{center}
-\vspace{.5cm}
-\setlength{\unitlength}{1in}
-\renewcommand{\arraystretch}{2}
+\end{table}
 
-\noindent\textbf{Course Pages:} \begin{enumerate}
-\item \url{http://yourWebPage1.com/teaching}
-\item \url{http://yourWebPage2.com/teaching}
-\end{enumerate}
 
-\vskip.15in
-\noindent\textbf{Office Hours:} After class, or by appointment, or post your questions in the forum provided for this purpose on AeLP.
+\noindent\textbf{Contact Information:}
 
-\vskip.15in
-\noindent\textbf{Main References:} %\footnotemark
-This is a  restricted list of various interesting and useful books that will be touched during the course. You need to consult them occasionally.
+\begin{table}[h]
+\centering
+\begin{tabular}{l|l|l|l}
+\toprule
+                         & \textbf{Office}& \textbf{Email} & \textbf{Phone} \\  \midrule
+Curry W. Hilton & Old Chemistry 122 A                  & curry.hilton@duke.edu               & 984.999.5481                        \\ 
+Patrick LeBlanc  (TA) & Old Chemistry 203 B             & patrick.leblanc@duke.edu            &                                     \\
+TBD (TA) & Old Chemistry 203 B    & &                         \\ \bottomrule
+\end{tabular}
+\end{table}
+
+
+\noindent\textbf{Course Resources:}
+
 \begin{itemize}
-\item Christopher M. Bishop, {\textit{Pattern Recognition and Machine Learning}}, Springer, 2006.
-\item Peter J. Carrington, John Scott, and Stanley Wasserman, {\textit{Models and Methods in Social Network Analysis}}, Cambridge University Press, 2005.
-\item Richard O. Duda, Peter E. Hart, and David G. Stork, {\textit{Pattern Classification}}, Wiley, 2nd ed., 2000.
-\item Peter Flach, {\textit{Machine Learning: The Art and Science of Algorithms that Make Sense of Data}}, Cambridge University Press, 2012.
 
-\end{itemize} 
-
-% \footnotetext{Downloadable ebook versions are available on AeLP.}
-
-\vskip.15in
-\noindent\textbf{Objectives:}  This course is  primarily designed for graduate students ... 
-
-\vskip.15in
-\noindent\textbf{Prerequisites:}
-An undergraduate-level understanding of probability, statistics, graph theory, algorithms, and linear algebra is assumed. 
-
-
-\vspace*{.15in}
-
-\noindent \textbf{Tentative Course Outline:}
-\begin{center} 
-\begin{minipage}{5in}
-\begin{flushleft}
-%Chapter 1 \dotfill ~$\approx$ 3 days \\
-{\color{darkgreen}{\Rectangle}} ~A little of probability theory and graph theory	
-\end{flushleft}
-\end{minipage}
-\end{center}
-
-\vspace*{.15in}
-\noindent\textbf{Grading Policy:} Homework and quizzes (30\%),  Midterm 1 (20\%), Midterm 2 (20\%), Final (30\%). %Four Projects (40\% = 4 * 10\%)
-
-\vskip.15in
-\noindent\textbf{Important Dates:}
-\begin{center} \begin{minipage}{3.8in}
-\begin{flushleft}
-Midterm \#1      \dotfill ~\={A}b\={a}n 16, 1393  \\
-Midterm \#2      \dotfill ~\={A}zar 21, 1393  \\
-%Project Deadline \dotfill ~Month Day \\
-Final Exam       \dotfill ~Dey 18, 1393  \\
-\end{flushleft}
-\end{minipage}
-\end{center}
-
-\vskip.15in
-\noindent\textbf{Course Policy:}  
-\begin{itemize}
-\item Please sign up for AeLP. I will confirm your enrollment for the course, then you will be able to see the course page.
+\item OpenIntro Biostatistics: Introductory Statistics for the Life and Biomedical Sciences (Provided via Sakai)
 
 \end{itemize}
 
-\vskip.15in
-\noindent\textbf{Class Policy:}  
+\pagebreak
+
+
+\noindent\textbf{Grading:}
+
+\vspace{2mm}
+
+\noindent{Your final grade will be comprised of the following.}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|l|c|}
+\toprule
+                         & \textbf{Contribution \%}\\  \midrule
+Labs  & 15 \%              \\
+Exam 1 & 20 \%                       \\ 
+Exam 2 & 20 \%                       \\ 
+Final Exam & 25 \% \\
+Project & 20 \% \\ \bottomrule
+\end{tabular}
+\end{table}
+
+\noindent{The exact ranges of letter grades and +/- assignments will be determined after the final exam.  However, if you make 90\% or higher you are guaranteed at least a A-, 80\% or higher you are guaranteed at least B-, etc. } 
+
+\vspace{5mm}
+
+\noindent\textbf{Students with Disabilities:}
+
+\vspace{2mm}
+
+\noindent{Students with disabilities who believe they may need accommodations in this class are encouraged to contact the Student Disability Access Office (http://www.access.duke.edu/students/requesting/index.php) at (919) 668-1267 as soon as possible to better ensure that such accommodations can be made.}
+
+\vspace{5mm}
+
+\noindent\textbf{Academic Integrity:}
+
+\vspace{2mm}
+
+\noindent{Duke University is a community dedicated to scholarship, leadership, and service and to the
+principles of honesty, fairness, respect, and accountability. Citizens of this community
+commit to reflect upon and uphold these principles in all academic and non-academic
+endeavors, and to protect and promote a culture of integrity. Cheating on exams and quizzes,
+plagiarism on homework assignments and project, lying about an illness or absence and
+other forms of academic dishonesty are a breach of trust with classmates and faculty, violate
+the Duke Community Standard (https://studentaffairs.duke.edu/conduct/about-us/dukecommunity-standard),
+and will not be tolerated. Such incidences will result in a 0 grade for all
+parties involved as well as being reported to the Office of Student Conduct
+(http://www.studentaffairs.duke.edu/conduct). Additionally, there may be penalties to your
+final class grade. Please review the Duke?s Academic Dishonesty policies
+(https://studentaffairs.duke.edu/conduct/z-policies/academic-dishonesty).}
+
+\vspace{5mm}
+
+\noindent\textbf{Excused Absences:}
+
+\vspace{2mm}
+
+\noindent{Students who miss graded work due to a scheduled varsity trip, religious holiday or shortterm
+illness should fill out an online NOVAP (https://trinity.duke.edu/undergraduate/academicpolicies/athletic-varsity-participation),
+religious observance notification (https://trinity.duke.edu/undergraduate/academic-policies\\/religious-holidays), or short-term
+illness notification (http://trinity.duke.edu/academic-requirements?p=\\policy-short-termillness-notification)
+form respectively. If you cannot complete an assignment on the due date due to a short-term illness, you have
+until noon the following day to complete it at no penalty. Then the regular late work policy
+will kick in.  If you are faced with a personal or family emergency or a long-range or chronic health
+condition that interferes with your ability to attend or complete classes, you should contact
+your academic dean?s office. See more information on policies surrounding these conditions
+here (https://trinity.duke.edu/undergraduate/academic-policies/personal-emergencies). Your
+academic dean can also provide more information.}
+
+\vspace{5mm}
+
+\noindent\textbf{Course Policies:}
+
 \begin{itemize}
-\item Regular attendance is essential and expected.
+
+\item Late work policy for labs reports:
+ 
+ \begin{itemize}
+ 
+  \item Next day: lose 30\% of total possible points
+  \item Later than next day: lose all points
+ 
+ \end{itemize}
+ 
+ \item  Late work policy for the project: 10\% off for each day late.
+ \item There will be no make-ups for labs, 
+project, or exams. If the midterm exam must be missed, absence must be officially
+excused \textbf{in advance}, in which case the missing exam score will be imputed using the final
+exam score. This policy only applies to the midterm. All other missed assessments will
+receive a grade of 0. The final exam must be taken at the stated time. You must take the
+final exam and turn in the project in order to pass this course.
+\item Regrade requests must be made \textbf{within one week} of when the assignment is returned,
+and must be submitted in writing. These will be honored if points were tallied incorrectly, or
+if you feel your answer is correct but it was marked wrong. No regrade will be made to alter
+the number of points deducted for a mistake. There will be no grade changes after the final
+exam.
+\item Use of disallowed materials (textbook, class notes, web references, any form of
+communication with classmates or other persons, etc.) during exams will not be tolerated.
+This will result in a 0 on the exam for all students involved, possible failure of the course,
+and will be reported to the Office of Student Conduct
+(http://www.studentaffairs.duke.edu/conduct). If you have any questions about whether something is or is not allowed, ask me beforehand.
+
 \end{itemize}
-
-\vskip.15in
-\noindent\textbf{Academic Honesty:}   Lack of knowledge of the academic honesty policy is not a reasonable explanation for a violation.
-
 
 %%%%%% THE END 
 \end{document} 
